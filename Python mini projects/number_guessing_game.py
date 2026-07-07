@@ -36,6 +36,7 @@ def play_game():
         if check_guess(secret_number,guess):
             print("Attempts= ",attempts)
             return
+            
         print("Remaining attempts: ",max_attempts - attempts)
         print()
 
@@ -46,8 +47,6 @@ def main():
   
     play_game()
     
-
-
 main()
 
     
