@@ -17,3 +17,13 @@ file = open("notes.txt", "r")
 for f in file:
     print(f.strip())
 file.close()
+
+
+file = open("notes.txt", "r") 
+print(file.read(16))
+file.close()
+
+
+with open("notes.txt", "r") as file:
+    content = file.read()
+    print(content)
