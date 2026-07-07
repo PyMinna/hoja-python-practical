@@ -1,8 +1,8 @@
-file = open("notes.txt", "w")
-file.write("Helloo this is my first note")
+file = open("notes.txt", "a")
+file.write("\nThankyou")
 file.close()
 
 
-file = open("C:\\Users\\LENOVO\\Desktop\\HOJA PYTHON PRACTICAL\\File Handling\\notes.txt", "w")
-file.write("Hello this is my scnd note")
+file = open("C:\\Users\\LENOVO\\Desktop\\HOJA PYTHON PRACTICAL\\File Handling\\notes.txt", "a")
+file.write("\nThankyou")
 file.close()
