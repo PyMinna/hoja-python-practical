@@ -11,3 +11,9 @@ file.close()
 file = open("notes.txt", "r") 
 content = file.read()
 print(content)
+
+
+file = open("notes.txt", "r") 
+for f in file:
+    print(f.strip())
+file.close()
