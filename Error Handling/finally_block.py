@@ -11,3 +11,7 @@ except ValueError:
 else:
     
     print("Calculation successfull")
+
+finally:
+
+    print("Thankyou for using..")
