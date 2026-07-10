@@ -1,4 +1,4 @@
-class GrandParent:
+class GrandParent():
     def feature_grandparent():
         print("Grandparent Feature")
 
