@@ -9,7 +9,7 @@ class Demo:
         print(self._protected_var)
 
     def get_private(self):
-        print(self.__private_var)
+        return self.__private_var
 
 o = Demo()
 print(o.public_var)
