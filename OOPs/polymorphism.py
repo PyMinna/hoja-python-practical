@@ -6,6 +6,7 @@ class Cat:
     def speak(self):
         return "Meow"
 
+#polymorphism
 def animal_sound(animal):
     print(animal.speak())
 
